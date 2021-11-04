@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    color: white;
+    background-color: #0c1c9b;
+    margin: auto;
+    
+}
+
+nav ul {
+    display: flex;
+    
+    list-style-type: none;
+    
+}
+li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+   
+}
+header a:hover {  
+   
+    color: black;
+    border-radius: 8px;
+    border: solid white 1px;
+    background-color: white;
+    
+   
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+   
+    
+}
+
+.item h1{
+    color: #0c1c9b;
+    text-align: left;
+   font-size: 45px;
+   margin-bottom: 12px;
+}
+
+.botao3 {
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    
+    max-width: 150px;
+    margin-top: 22px;
+    background-color: #0c1c9b;
+
+}
+
+.botao3 a {
+    color: white;
+    text-decoration: none;
+}
+.botao3:hover{
+
+    transform: scale(1.08);
+}
+
+.item {
+    
+    
+    margin: auto;
+}
+
+.item2 {
+    margin: auto;
+    
+    max-width: 600px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.item2 h2 { 
+    text-align: left;
+    margin: 10px;
+    border-left: 4px solid blue;
+    
+
+}
+
+
+.servicos {
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1200px;
+    color: white;
+    display: flex;
+    background-color: #0c1c9b;
+    
+   
+  
+
+}
+
+.container-servicos {
+    
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    justify-content:  space-around; 
+    background-color: #0c1c9b;
+    
+}
+
+
+.item3 {
+
+    min-height: 220px;
+    
+    background-color: #0c1c9b;
+    color: white;
+    padding: 15px;
+    
+}
+
+.item3 a {
+    color: #0c1c9b;
+    text-decoration: none;
+    
+
+}
+ .botao{
+   border-radius: 20px;
+   padding: 5px;
+   margin-top: 25px;
+   background-color: white;
+  
+}
+
+.botao:hover{
+
+    transform: scale(1.08);
+}
+
+.item3 p {
+    margin-top: 10px;
+}
+
+.container-planos {
+    
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content:  space-around; 
+    background-color: white;
+    
+}
+.item4 {
+
+    
+    border: solid #0c1c9b 4px;
+    background-color:white;
+    padding: 30px;
+    
+   
+   
+}
+.item4 h3{
+    text-align: center;
+    border: 0;
+    border-bottom:3px solid #0c1c9b;
+}
+
+.item4 ul li {
+    padding: 8px;
+    
+    
+}
+.item4 ul  {
+    margin-top: 18px;
+    
+    
+}
+.item4 a {
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.botao2{
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: #0c1c9b;
+   
+   
+ }
+
+ .botao2:hover{
+
+    transform: scale(1.08);
+}
+
+ 
+
+ .planos { 
+    margin: auto;
+    margin-top: 15px;
+    max-width: 1200px;
+    display: flex;
+    
+}
+.home{
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.home i{
+    color:blue;
+    font-size: 42px;
+   
+    
+}
+
+footer{
+    display: flex;
+    
+    margin: auto;
+    align-items: center;
+    background-color: #0c1c9b;
+    height: 45px;
+    margin-top: 150px;
+    justify-content: space-between;
+    color:white;
+   
+}
+
+
+footer i{
+    
+    font-size: 20px;
+    color: white;
+    margin: 12px;
+    
+    
+    
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+@media (max-width:992px){
+    header{
+        flex-direction: column;
+        margin: auto;
+    }
+    .container, .container-servicos, .container-planos{
+        margin: auto;
+        flex-direction: column;
+       
+        
+    }
+
+    .item, .item2, .item3, .item4 {
+    margin: auto;
+    flex-direction: column;
+    margin-top: 15px;
+    
+      
+}
+
+.home{
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.home i{
+    font-size: 0px;
+}
+
+
+img {
+    width: 50%;
+    margin:auto;
+}
+ .item2 h2 {
+    text-align: center;
+    align-items: center;
+    border: none;
+    color: #0c1c9b;
+    
+}
+.servicos h2, .planos h2{
+    text-align: center;
+     align-items: center;
+     margin: auto;
+
+}
+
+
+footer {
+  margin: auto;
+  margin-top: 50px;
+
+}
+}
